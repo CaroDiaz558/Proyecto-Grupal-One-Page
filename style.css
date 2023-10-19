@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet&family=Kanit:wght@600&family=Lato:ital,wght@0,700;1,300&family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header .contenedor {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 115px;
+  font-size: 20px;
+}
+
+.logo img{
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+header h1 {
+  color: rgb(61, 60, 60);
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+header .menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 45px 110px;
+}
+header .menu ul{
+  display: flex;
+  list-style: none;
+}
+
+header .menu li a {
+  color: rgb(61, 60, 60);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  margin: 0 35px;
+  text-decoration: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(35, 35, 35);
+    color: gray;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 15px;
+}
+
+.subscribe h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    border: none;
+    flex: 1;
+    padding: 10px;
+    background-color: #333;
+    
+}
+
+.subscribe button {
+    background-color: #333;
+    color: rgb(154, 154, 154);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+}
+i{
+    padding: 15px;
+    color: #fbfbfb;
+    margin-top: 8px;
+    margin-left: 0;
+}
